@@ -17,7 +17,7 @@ const participationSchema = new mongoose.Schema({
         ref: "Question",
         required: true,
       },
-      answers: [{ type: String }],
+      answers: [{ type: String, required: true }],
     },
   ],
 });

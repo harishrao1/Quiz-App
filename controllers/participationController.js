@@ -1,17 +1,5 @@
 const Quiz = require("../models/user");
 const Participation = require("../models/participation");
-// exports.getUser = async (req, res) => {
-//   try {
-//     const userId = req.params.userId;
-//     const user = await User.findById(userId);
-//     if (!user) {
-//       return res.status(404).json({ error: "User not found" });
-//     }
-//     res.status(200).json(user);
-//   } catch (error) {
-//     res.status(500).json({ error: "Failed to retrieve user" });
-//   }
-// };
 
 // Take a Quiz
 exports.takeQuiz = async (req, res) => {
